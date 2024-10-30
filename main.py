@@ -23,7 +23,8 @@ def main():
     neo_bank()
     while True:
         
-        choice = input("What would you like to do (1-6): ")
+        choice = input("What would you like to do (1-6):")
+        print("")
         if choice == "1":
             print("Account creation functionality here.","")
         elif choice == "2":
@@ -35,11 +36,12 @@ def main():
         elif choice == "5":
             print("Sending money.")
         elif choice == "6":
-            print("Thank You for Banking with NeoBank (^.^)","")
+            print("Thank You for Banking with NeoBank (^.^)","", sep="\n")
             break
         else:
-            print("Invalid choice, please try again.")
+            clear_console()
             neo_bank()
+            print("Invalid Choice, Please Try Again.","",sep="\n")
 
 
 

@@ -7,7 +7,7 @@ class NeoBank:
         self.next_account_id = 1  
 
     def clear_console(self):
-        os.system('cls' if os.name == 'nt' else 'clear')
+        os.system('clear')
 
     def display_menu(self):
         print("--------------------------------------------------------------", "", sep="\n")
@@ -108,8 +108,8 @@ class NeoBank:
                 print("Thank You for Banking with NeoBank (^.^)\n")
                 break
             else:
+                self.clear_console()
                 print("Invalid Choice, Please Try Again.\n")
-            self.clear_console()
 
 
 if __name__ == "__main__":

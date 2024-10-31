@@ -26,6 +26,7 @@ The Python Banking System provides essential banking operations, allowing you to
 
 1. Clone the repository (if applicable) or download the project files.
 2. Navigate to the project directory.
+3. In Terminal type pip install tabulate
 
 ---
 

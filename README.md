@@ -1,6 +1,6 @@
-# Python Banking System
+# number plate recognition system
 
-Welcome to the Python Banking System! This is a console-based application that allows you to perform basic banking operations in a straightforward, easy-to-use interface built with Python.
+Welcome to the number plate recognition system This is a console-based application that allows you to perform basic banking operations in a straightforward, easy-to-use interface built with Python.
 
 ---
 
